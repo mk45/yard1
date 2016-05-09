@@ -9,7 +9,7 @@ model Yard1
 
 global torus: true {	
 	int number_of_kids <- 30;
-	//point azero <- {0.0002,0.0001};
+	//change
 	file yard_block <- file("../includes/yard_block.shp");
 	float agent_speed <- 0.000001 ;
 	geometry shape <- envelope(yard_block);
